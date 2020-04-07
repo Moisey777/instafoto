@@ -1,7 +1,7 @@
 language: ruby
 
 ruby:
-  - "2.7.0gi"
+  - "2.7.0"
 rvm:
  - 2.2
- - jruby
+ - jrubygi
