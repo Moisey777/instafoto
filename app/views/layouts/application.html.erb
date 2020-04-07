@@ -10,8 +10,21 @@
   </head>
 
   <body>
-    <%= link_to "Главная", root_path %>
-    <%= link_to "O нас", pages_about_path %>
-    <%= yield %>
+    <div class="container">
+      
+
+      <ul class="nav">
+        <li class="nav-item">
+          <%= link_to "Главная", root_path %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "O нас", pages_about_path %>
+        </li>
+
+      </ul>
+      
+     <%= yield %>
+
+    </div>
   </body>
 </html>
