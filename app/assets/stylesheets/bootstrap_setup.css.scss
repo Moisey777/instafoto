@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore|Merienda+One|Open+Sans&display=swap);
 $display3-size: 2.5rem;
 $jumbotron-bg: rgba(255, 255, 255, 0.2);
+
+
 
 @import "bootstrap";
 
@@ -8,6 +11,11 @@ $jumbotron-bg: rgba(255, 255, 255, 0.2);
     height: 100vh;
     background-size: cover;
     background-image: url(image_path('background.jpg'));
+}
+
+.container-login {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .jumbotron-landing {
@@ -29,4 +37,12 @@ $jumbotron-bg: rgba(255, 255, 255, 0.2);
 .nav-landing:active {
     color: #2c3e50;
     text-decoration: none;
+}
+
+.text-logo {
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.landing-logo {
+    font-size: 2rem;
 }
